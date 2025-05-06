@@ -1,0 +1,31 @@
+<div class="prod1-container">
+    <header class="header">
+      <h2 class="success-message">✅ product works</h2>
+    </header>
+  
+    <div class="card-container">
+    
+      <div class="card" (click)="selectCard(1)" [class.active]="selectedCard === 1">
+        <div class="card-icon">📊</div>
+        <h3>Analytics Dashboard</h3>
+        <p>Real-time data visualization and business metrics</p>
+        <button class="card-button">Explore</button>
+      </div>
+  
+   
+      <div class="card" (click)="selectCard(2)" [class.active]="selectedCard === 2">
+        <div class="card-icon">🛠️</div>
+        <h3>Tools</h3>
+        <p>Productivity tools for your daily workflow</p>
+        <button class="card-button">Discover</button>
+      </div>
+  
+   
+      <div class="card" (click)="selectCard(3)" [class.active]="selectedCard === 3">
+        <div class="card-icon">🔒</div>
+        <h3>Security Center</h3>
+        <p>Manage permissions and access controls</p>
+        <button class="card-button">Secure</button>
+      </div>
+    </div>
+  </div>

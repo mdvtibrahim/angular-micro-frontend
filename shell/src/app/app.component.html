@@ -1,0 +1,21 @@
+<nav class="mf-nav">
+  <h1>Micro-Frontend Shell (Host)</h1>
+  
+  <div class="nav-links">
+    <!-- <a routerLink="/" routerLinkActive="active">Home</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+    
+    <a routerLink="/prod1" routerLinkActive="active">Go to Prod1 App</a> -->
+    
+    <!-- <button (click)="navigateToProd1()">Product</button> -->
+    <!-- <button routerLink="/prod1">Product</button> -->
+    <a routerLink="/prod1">Product</a>
+
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<div *ngIf="loading" class="loading-spinner">
+  Loading Prod1...
+</div>
